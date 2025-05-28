@@ -98,7 +98,7 @@ const LoginPage = () => {
             Forgot <span className="text-blue-600">Username/Password</span>
           </h3>
           <p>
-            Don't have an account?{" "}
+            Don't have an account?
             <Link href="/sign-up" className="text-blue-600">
               Sign Up
             </Link>

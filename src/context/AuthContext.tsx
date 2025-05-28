@@ -34,6 +34,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           setUser(profile);
         } catch (error) {
           authService.logout();
+          console.log(error)
         }
       }
       setIsLoading(false);
